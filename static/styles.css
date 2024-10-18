@@ -11,8 +11,8 @@ header{
     background-color: rgb(109, 202, 255);
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: center;
 
 }
 header>h1{color: rgb(255, 255, 255);}

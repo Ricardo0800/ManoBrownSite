@@ -8,7 +8,7 @@
 header{
     width: 100%;
     height: 80px;
-    background-color: rgb(109, 202, 255);
+    background-color: #3d2b1f;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -19,7 +19,7 @@ header>h1{color: rgb(255, 255, 255);}
 .navBarContainer{
     width: 100%;
     height: 40px;
-    background-color: rgb(30, 104, 104);
+    background-color: #654321;
     border-radius: 0 0 20px 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 
@@ -71,4 +71,72 @@ a {
 
 a:hover {
     cursor: pointer; /* Cursor de mão ao passar sobre o link */
+}
+body{
+    background-color: rgb(255, 239, 213);
+}
+.vitrine{
+    height: 500px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.vitrineCards{
+    width: 40%;
+    height: 400px;
+    background-color: azure;
+    
+}
+.vitrine {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: #f5f5f5; /* Fundo claro para destacar o conteúdo */
+}
+
+.vitrineCards {
+    width: 45%; /* Cada card ocupa quase metade da vitrine */
+    text-align: center;
+    padding: 20px;
+    
+    background-color: #fff;
+    
+}
+
+#copy {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #3d2b1f; /* Cor de chocolate escuro para harmonizar com o tema */
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #ff6347; /* Tom vibrante como laranja ou vermelho */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e5533c; /* Efeito de hover com tom mais escuro */
+}
+
+#card2 {
+    width: 45%;
+    height: 460px; /* Ajuste conforme necessário */
+    background-image: url("/static/images/Design\ sem\ nome\ \(3\).png"); /* Coloque o caminho correto da imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o card */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+   
 }

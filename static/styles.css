@@ -117,6 +117,7 @@ body{
     line-height: 1.5;
     color: #3d2b1f; /* Cor de chocolate escuro para harmonizar com o tema */
     margin-bottom: 20px;
+    width: 700px;
 }
 
 button {
